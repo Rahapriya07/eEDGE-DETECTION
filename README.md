@@ -30,10 +30,10 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread('tiger.jpeg')
+image = cv2.imread('myfoto.jpg')
 
 if image is None:
-    raise FileNotFoundError("tiger.jpeg not found")
+    raise FileNotFoundError("myfoto.jpg not found")
 
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
